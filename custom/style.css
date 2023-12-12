@@ -1,0 +1,160 @@
+:root {
+    --main-color: rgb(0 112 192);
+    --main-color-bold: rgb(1, 71, 121);
+    --main-color-o: rgb(0 112 192 / 99%);
+    --main-color-o-2: rgb(0 112 192 / 90%);
+    --main-color-o-20: rgb(0 112 192 / 20%);
+    --second-color: rgb(245, 245, 245);
+    --third-color: rgb(255 242 0);
+    --third-color-65: rgb(255 242 0 / 65%);
+    --third-color-o-20: rgb(255 242 0 / 20%);
+    --linenear-color: linear-gradient(var(--main-color) -20%, var(--third-color-65) 1076%);
+    --linenear-color-vertical-2: linear-gradient(90deg, var(--third-color) 0%, rgba(24, 98, 101, 0.00) 100%);;
+    
+}
+
+/* ------------------ Home page ------------------ */
+/* Naviagtion */
+.main-header-one {
+    background: var(--main-color-o);
+}
+
+.logo-box-one__bg::before {
+    background-color: var(--main-color-o);
+}
+
+.main-header-one__top-pattern::before {
+    background: var(--linenear-color)
+}
+
+.header-contact-info ul li .icon-box span {
+    color: var(--third-color);
+}
+
+.main-header-one__bottom::before {
+    color: var(--third-color);
+}
+
+.main-header-one__top-right::before {
+    background: var(--linenear-color-vertical-2);
+    left: -1px;
+}
+
+.header-social-links::before, .header-social-links:after {
+    border-right: 25px solid var(--third-color);
+}
+.sec-title-style3 .sub-title .icon img {
+    max-width: 40px;
+    margin-right: 5px;
+}
+
+.header-social-links ul li {
+    margin-right: 27px;
+}
+.header-social-links ul li a span {
+    color: var(--main-color);
+    font-size: 25px;
+    line-height: 13px;
+}
+
+.main-header-one__bottom::before {
+    background-color: var(--third-color);
+}
+
+.thm-btn:before {
+    background-color: var(--main-color);
+}
+.navbar-wrap>ul>li::after {
+    background-color: var(--main-color);
+}
+.navbar-wrap>ul>li.active>a, .navbar-wrap>ul>li:hover>a {
+    color: var(--main-color-bold);
+}
+
+/* search */
+.search-popup__overlay {
+    background-color: var(--main-color-o-2);
+}
+.search-popup__content .btn-box {
+    background-color: var(--third-color);
+}
+.search-popup__content .btn-box:hover {
+    background-color: var(--main-color);
+}
+.search-popup__content .btn-box i::before {
+    color: var(--main-color-bold);
+}
+.search-popup__close-icon:hover {
+    background-color: var(--third-color);
+}
+.menu-area .mobile-nav-toggler {
+    color: var(--third-color);
+}
+.mobile-menu .navigation li.menu-item-has-children .dropdown-btn {
+    background-color: var(--third-color);
+}
+
+.fa-angle-down:before {
+    color: var(--main-color-bold);
+}
+
+.mobile-menu .contact-info .icon-box {
+    background-color: var(--third-color);
+}
+
+/* Slider */
+.main-slider-two__wrap .swiper-counter div {
+    color: var(--third-color);
+}
+.main-slider-two__content .sub-title::before {
+    background: linear-gradient(94deg, var(--third-color) 4.78%, #FFD7A6 122.83%);
+}
+.main-slider-two__content .title h2 span {
+    -webkit-text-stroke: 2px var(--third-color);
+}
+.thm-btn:after {
+    background-color: var(--third-color);
+}
+.main-slider-two__content .btn-box .thm-btn {
+    color: var(--main-color-bold);
+}
+.main-slider-two__content .btn-box .thm-btn::before {
+    background-color: var(--main-color);
+}
+.main-slider-two__content .btn-box .thm-btn:hover {
+    color: var(--second-color);
+}
+.main-slider-two .swiper-nav-style1 .swiper-button-next, .main-slider-two .swiper-nav-style1 .swiper-button-prev {
+    color: var(--main-color-bold);
+}
+.swiper-nav-style1 .swiper-button-next:hover, .swiper-nav-style1 .swiper-button-prev:hover {
+    background: var(--third-color);
+    border-color: var(--third-color);
+    color: var(--main-color-bold);
+}
+.main-slider-two .big-title h2 {
+    color: var(--main-color-o-20);
+    -webkit-text-stroke: 2px var(--third-color-o-20);
+    color: var(--third-color-o-20);
+    -webkit-text-stroke: 2px var(--main-color-o-20);
+}
+/* About */
+.about-three__img-icon-box .icon {
+    background-color: var(--main-color);
+}
+.about-three__img-icon-box .icon img {
+    max-width: 65px;
+}
+.about-three__img-icon-box::before {
+    background-color: var(--third-color);
+}
+.about-three__img-icon-box .round-text .curved-circle-3 {
+    color: var(--main-color-bold);
+}
+.about-three__img::before {
+    background-color: var(--third-color);
+}
+
+.sec-title-style3 .sub-title h5 {
+    font-family: var(--thm-body-font);
+}
