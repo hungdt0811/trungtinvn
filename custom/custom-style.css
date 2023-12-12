@@ -1,0 +1,7 @@
+/* About Section */
+.sec-title-style3 .sub-title .icon img {
+    max-width: 65px;
+}
+.sec-title-style3 .sub-title h5 {
+    font-family: var(--thm-body-font);
+}
