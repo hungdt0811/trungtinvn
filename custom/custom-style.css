@@ -8,10 +8,59 @@ body {
     max-width: 55px;
     margin-right: 10px;
 }
+
 .sec-title-style3 .sub-title h5 {
     font-family: var(--thm-body-font);
 }
 
 .about-three__img-icon-box .icon img {
     width: 65px;
+}
+
+/* Service Section */
+.services-three__bg::before {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.services-three__single-content-inner .count-box {
+    position: absolute;
+    right: 16px;
+    bottom: -20px;
+    color: var(--thm-black-rgb);
+    opacity: 0.06;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+    font-family: var(--thm-heading-font);
+}
+
+.swiper-pagination-progressbar {
+    background: rgb(0 0 0 / 0%);
+}
+
+.icon-box i {
+    color: var(--thm-primary);
+    font-size: 35px;
+}
+
+.services-three__single-content-inner h2 {
+    font-size: 25px;
+    line-height: 30px;
+    height: 60px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.services-three__single-content-inner p {
+    font-size: 16px;
+    line-height: 28px;
+    height: 56px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.services-three__single-img .inner img {
+    height: 245px;
 }
