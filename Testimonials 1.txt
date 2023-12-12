@@ -1,0 +1,208 @@
+<!--Start Testimonials One-->
+        <section class="testimonials-one">
+            <div class="testimonials-one__pattern"><img src="assets/img/pattern/testimonials-v1-pattern.png" alt="">
+            </div>
+            <div class="container">
+                <div class="sec-title text-center">
+                    <div class="sub-title">
+                        <h5><span class="icon-right-arrow-1"></span> Đánh giá của khách hàng</h5>
+                    </div>
+                    <h2>Khách hàng nói gì về chúng tôi </h2>
+                </div>
+
+                <div class="thm-swiper__slider swiper-container" data-swiper-options='{"spaceBetween": 50,
+                "slidesPerView": 3,
+                "loop": true,
+                "pagination": {
+                    "el": "#testimonials-one__pagination",
+                    "type": "bullets",
+                    "clickable": true
+                    },
+                "navigation": {
+                    "nextEl": "#team-one__swiper-button-next",
+                    "prevEl": "#team-one__swiper-button-prev"
+                },
+                "autoplay": { "delay": 5000 },
+                "breakpoints": {
+                    "0": {
+                        "spaceBetween": 30,
+                        "slidesPerView": 1
+                    },
+                    "375": {
+                        "spaceBetween": 30,
+                        "slidesPerView": 1
+                    },
+                    "575": {
+                        "spaceBetween": 30,
+                        "slidesPerView": 1
+                    },
+                    "768": {
+                        "spaceBetween": 30,
+                        "slidesPerView": 2
+                    },
+                    "992": {
+                        "spaceBetween": 30,
+                        "slidesPerView": 2
+                    },
+                    "1200": {
+                        "spaceBetween": 50,
+                        "slidesPerView": 3
+                    }
+                }
+            }'>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <!--Start Single Testimonials One-->
+                            <div class="testimonials-one__single">
+                                <div class="icon-box"><span class="icon-quote11"></span></div>
+                                <div class="border-left"></div>
+                                <div class="testimonials-one__single-top">
+                                    <div class="img-box">
+                                        <img src="assets/img/testimonial/testimonials-one__img1.jpg" alt="">
+                                    </div>
+
+                                    <div class="title-box">
+                                        <h2><a href="#">Nguyễn Văn A</a></h2>
+                                        <p>Giám đốc ABC</p>
+                                    </div>
+                                </div>
+
+                                <div class="testimonials-one__single-inner">
+                                    <div class="content-box">
+                                        <div class="content-box-top">
+                                            <div class="text-box">
+                                                <h3>“Dịch vụ rất tốt”</h3>
+                                            </div>
+                                            <div class="rating-box">
+                                                <a href="#"><i class="icon-star"></i></a>
+                                                <a href="#"><i class="icon-star"></i></a>
+                                                <a href="#"><i class="icon-star"></i></a>
+                                                <a href="#"><i class="icon-star"></i></a>
+                                                <!-- <a href="#"><i class="icon-star"></i></a> -->
+                                            </div>
+                                        </div>
+                                        <p>Chúng tôi rất hài lòng với dịch vụ của Trung Tín. Đội ngũ của các bạn rất chuyên nghiệp và luôn nhanh chóng phản hồi thông tin trong và thậm chí sau thời gian dự án. Đó là một trải nghiệm tuyệt vời khi được làm việc với đội ngũ của các bạn, và chúng tôi chắc chắn sẽ cân nhắc hợp tác với các bạn trong những dự án tiếp theo.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Single Testimonials One-->
+                        </div>
+
+                        <div class="swiper-slide">
+                            <!--Start Single Testimonials One-->
+                            <div class="testimonials-one__single">
+                                <div class="icon-box"><span class="icon-quote11"></span></div>
+                                <div class="border-left"></div>
+                                <div class="testimonials-one__single-top">
+                                    <div class="img-box">
+                                        <img src="assets/img/testimonial/testimonials-one__img2.jpg" alt="">
+                                    </div>
+
+                                    <div class="title-box">
+                                        <h2><a href="#">Nguyễn Thị B</a></h2>
+                                        <p>Client</p>
+                                    </div>
+                                </div>
+
+                                <div class="testimonials-one__single-inner">
+                                    <div class="content-box">
+                                        <div class="content-box-top">
+                                            <div class="text-box">
+                                                <h3>“Tuyệt vời”</h3>
+                                            </div>
+                                            <div class="rating-box">
+                                                <a href="#"><i class="icon-star"></i></a>
+                                                <a href="#"><i class="icon-star"></i></a>
+                                                <a href="#"><i class="icon-star"></i></a>
+                                                <a href="#"><i class="icon-star"></i></a>
+                                                <a href="#"><i class="icon-star"></i></a>
+                                            </div>
+                                        </div>
+                                        <p>Tôi ngạc nhiên khi thấy dự án hợp tác với Trung Tín lại nhanh chóng hiệu quả như vậy.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Single Testimonials One-->
+                        </div>
+
+                        <div class="swiper-slide">
+                            <!--Start Single Testimonials One-->
+                            <div class="testimonials-one__single">
+                                <div class="icon-box"><span class="icon-quote11"></span></div>
+                                <div class="border-left"></div>
+                                <div class="testimonials-one__single-top">
+                                    <div class="img-box">
+                                        <img src="assets/img/testimonial/testimonials-one__img1.jpg" alt="">
+                                    </div>
+
+                                    <div class="title-box">
+                                        <h2><a href="#">Nguyễn Văn A</a></h2>
+                                        <p>Giám đốc ABC</p>
+                                    </div>
+                                </div>
+
+                                <div class="testimonials-one__single-inner">
+                                    <div class="content-box">
+                                        <div class="content-box-top">
+                                            <div class="text-box">
+                                                <h3>“Dịch vụ rất tốt”</h3>
+                                            </div>
+                                            <div class="rating-box">
+                                                <a href="#"><i class="icon-star"></i></a>
+                                                <a href="#"><i class="icon-star"></i></a>
+                                                <a href="#"><i class="icon-star"></i></a>
+                                                <a href="#"><i class="icon-star"></i></a>
+                                                <!-- <a href="#"><i class="icon-star"></i></a> -->
+                                            </div>
+                                        </div>
+                                        <p>Chúng tôi rất hài lòng với dịch vụ của Trung Tín. Đội ngũ của các bạn rất chuyên nghiệp và luôn nhanh chóng phản hồi thông tin trong và thậm chí sau thời gian dự án. Đó là một trải nghiệm tuyệt vời khi được làm việc với đội ngũ của các bạn, và chúng tôi chắc chắn sẽ cân nhắc hợp tác với các bạn trong những dự án tiếp theo.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Single Testimonials One-->
+                        </div>
+
+                        <div class="swiper-slide">
+                            <!--Start Single Testimonials One-->
+                            <div class="testimonials-one__single">
+                                <div class="icon-box"><span class="icon-quote11"></span></div>
+                                <div class="border-left"></div>
+                                <div class="testimonials-one__single-top">
+                                    <div class="img-box">
+                                        <img src="assets/img/testimonial/testimonials-one__img2.jpg" alt="">
+                                    </div>
+
+                                    <div class="title-box">
+                                        <h2><a href="#">Nguyễn Thị B</a></h2>
+                                        <p>Client</p>
+                                    </div>
+                                </div>
+
+                                <div class="testimonials-one__single-inner">
+                                    <div class="content-box">
+                                        <div class="content-box-top">
+                                            <div class="text-box">
+                                                <h3>“Tuyệt vời”</h3>
+                                            </div>
+                                            <div class="rating-box">
+                                                <a href="#"><i class="icon-star"></i></a>
+                                                <a href="#"><i class="icon-star"></i></a>
+                                                <a href="#"><i class="icon-star"></i></a>
+                                                <a href="#"><i class="icon-star"></i></a>
+                                                <a href="#"><i class="icon-star"></i></a>
+                                            </div>
+                                        </div>
+                                        <p>Tôi ngạc nhiên khi thấy dự án hợp tác với Trung Tín lại nhanh chóng hiệu quả như vậy.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End Single Testimonials One-->
+                        </div>
+
+                    </div>
+                </div>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-pagination" id="testimonials-one__pagination"></div>
+            </div>
+        </section>
+        <!--End Testimonials One Area-->

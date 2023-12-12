@@ -1,5 +1,10 @@
+:root {
+    --thm-black: #121213;
+}
+
 body {
     font-family: var(--thm-body-font);
+
 }
 
 
@@ -63,4 +68,99 @@ body {
 }
 .services-three__single-img .inner img {
     height: 245px;
+}
+
+/* Why Choose Us */
+.choose-us-one {
+    padding-top: 0;
+}
+.sec-title .sub-title h5, .sec-title-style3 .sub-title h5, .choose-us-one__single .content-box .title-box h3 a, .sec-title h2{
+    font-family: var(--thm-body-font);
+}
+
+.sec-title .sub-title h5, .sec-title-style3 .sub-title h5 {
+    font-size: 20px;
+}
+
+/* Project */
+.project-one {
+    /* padding-bottom: 0px; */
+}
+.project-one__single-content-bottom .text-box p {
+    font-size: 16px;
+    line-height: 25px;
+    max-height: 100px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+
+/* Testimonials Section */
+.testimonials-two__bg::before {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.testimonials-two__single-bottom .content-box p {
+    font-size: 16px;
+    line-height: 25px;
+    height: 75px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+.testimonials-two__wrap .swiper-counter div#total {
+    position: relative;
+    top: 15px;
+    right: -5px;
+    padding-left: 0px;
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 500;
+    font-family: var(--thm-heading-font);
+}
+.testimonials-two__wrap .swiper-counter div#total:before {
+    content: '/';
+    position: absolute;
+    left: -16px;
+    width: 0px;
+    height: 0px;
+    top: -5px;
+}
+
+/* FAQ Section */
+
+/* Blog Section */
+.blog-one__single-content h2 a {
+    font-size: 24px;
+    line-height: 28px;
+    height: 56px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+/* Footer */
+.footer-one--two .footer-widget__links-box ul li a, .single-footer__newsletter-text1 p {
+    color: #EAECE8;
+}
+.footer-one--two .footer-one__bg::before {
+    background: var(--thm-black);
+    opacity: 0.9;
+}
+
+.single-footer__newsletter-form-input input[type="email"] {
+    color: #EAECE8;
+    font-size: 16px;
+    height: 60px;
+    width: 100%;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: transparent;
+    border: 2px solid #d2d3d1;
+    border-radius: 4px;
+    outline: none;
 }
